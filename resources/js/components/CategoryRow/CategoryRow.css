@@ -1,0 +1,12 @@
+.CategoryRow {
+    margin-bottom: 20px;
+}
+
+.container .CategoryRow .card-body {
+    transition: box-shadow 0.2s ease-out;
+}
+
+.container .CategoryRow .card-body:hover {
+    cursor: pointer;
+    box-shadow: 0 0 6px rgba(0,0,0, 0.5);
+}
